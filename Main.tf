@@ -18,11 +18,5 @@ resource "azurerm_resource_group" "rg1" {
 }
 
 
-resource "azurerm_resource_group" "rg2" {
-  name     = "Rg-2"
-  location = "West Europe"
-}
-
-
 
 
