@@ -13,24 +13,11 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg1" {
-  name     = "Rg-1"
+  name     = "simple-rg-1"
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "rg2" {
-  name     = "Rg-2"
-  location = "West Europe"
-}
 
-resource "azurerm_resource_group" "rg3" {
-  name     = "Rg-3"
-  location = "West Europe"
-}
-
-resource "azurerm_resource_group" "rg4" {
-  name     = "Rg-4"
-  location = "West Europe"
-}
 
 
 
